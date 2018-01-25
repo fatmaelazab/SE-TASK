@@ -1,0 +1,126 @@
+[debug] [2018-01-24T16:25:00.609Z] ----------------------------------------------------------------------
+[debug] [2018-01-24T16:25:00.611Z] Command:       /usr/local/Cellar/node/8.2.1/bin/node /usr/local/bin/firebase serve
+[debug] [2018-01-24T16:25:00.611Z] CLI Version:   3.17.3
+[debug] [2018-01-24T16:25:00.611Z] Platform:      darwin
+[debug] [2018-01-24T16:25:00.611Z] Node Version:  v8.2.1
+[debug] [2018-01-24T16:25:00.612Z] Time:          Wed Jan 24 2018 18:25:00 GMT+0200 (EET)
+[debug] [2018-01-24T16:25:00.612Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-24T16:25:00.621Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-24T16:25:00.621Z] > authorizing via signed-in user
+[debug] [2018-01-24T16:25:00.623Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-01-24T16:25:00.623Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/KhkVC_X19FvIEzs4GcDc6ca5Il2veNXQPY8BRvZh-MXcovlw5tE9iee2qhbztJtV',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Jan 24 2018 18:25:00 GMT+0200 (EET)
+[debug] [2018-01-24T16:25:01.220Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T16:25:01.230Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/avian-concord-176102  
+  
+ Wed Jan 24 2018 18:25:01 GMT+0200 (EET)
+[debug] [2018-01-24T16:25:02.381Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T16:25:02.382Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/avian-concord-176102/tokens  
+  
+ Wed Jan 24 2018 18:25:02 GMT+0200 (EET)
+[debug] [2018-01-24T16:25:03.215Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/fatmaelazab/Desktop/Task'...
+[info] 
+[debug] [2018-01-24T16:25:03.219Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/avian-concord-176102  
+  
+ Wed Jan 24 2018 18:25:03 GMT+0200 (EET)
+[debug] [2018-01-24T16:25:04.612Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T16:25:04.612Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/310905343528/clients/_:getWebAppConfig  
+  
+ Wed Jan 24 2018 18:25:04 GMT+0200 (EET)
+[debug] [2018-01-24T16:25:05.636Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T16:25:05.667Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:17)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Server.emit (events.js:207:7)
+    at emitListeningNT (net.js:1346:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-01-24T16:25:11.420Z] ----------------------------------------------------------------------
+[debug] [2018-01-24T16:25:11.422Z] Command:       /usr/local/Cellar/node/8.2.1/bin/node /usr/local/bin/firebase serve
+[debug] [2018-01-24T16:25:11.422Z] CLI Version:   3.17.3
+[debug] [2018-01-24T16:25:11.422Z] Platform:      darwin
+[debug] [2018-01-24T16:25:11.422Z] Node Version:  v8.2.1
+[debug] [2018-01-24T16:25:11.422Z] Time:          Wed Jan 24 2018 18:25:11 GMT+0200 (EET)
+[debug] [2018-01-24T16:25:11.422Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-24T16:25:11.432Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-24T16:25:11.432Z] > authorizing via signed-in user
+[debug] [2018-01-24T16:25:11.433Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/avian-concord-176102  
+  
+ Wed Jan 24 2018 18:25:11 GMT+0200 (EET)
+[debug] [2018-01-24T16:25:13.425Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T16:25:13.426Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/avian-concord-176102/tokens  
+  
+ Wed Jan 24 2018 18:25:13 GMT+0200 (EET)
+[debug] [2018-01-24T16:25:14.180Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/fatmaelazab/Desktop/Task'...
+[info] 
+[debug] [2018-01-24T16:25:14.185Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/avian-concord-176102  
+  
+ Wed Jan 24 2018 18:25:14 GMT+0200 (EET)
+[debug] [2018-01-24T16:25:15.263Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T16:25:15.263Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/310905343528/clients/_:getWebAppConfig  
+  
+ Wed Jan 24 2018 18:25:15 GMT+0200 (EET)
+[debug] [2018-01-24T16:25:16.490Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T16:25:16.505Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:17)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Server.emit (events.js:207:7)
+    at emitListeningNT (net.js:1346:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-01-24T16:37:02.211Z] ----------------------------------------------------------------------
+[debug] [2018-01-24T16:37:02.213Z] Command:       /usr/local/Cellar/node/8.2.1/bin/node /usr/local/bin/firebase serve
+[debug] [2018-01-24T16:37:02.213Z] CLI Version:   3.17.3
+[debug] [2018-01-24T16:37:02.213Z] Platform:      darwin
+[debug] [2018-01-24T16:37:02.213Z] Node Version:  v8.2.1
+[debug] [2018-01-24T16:37:02.215Z] Time:          Wed Jan 24 2018 18:37:02 GMT+0200 (EET)
+[debug] [2018-01-24T16:37:02.215Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-24T16:37:02.228Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-24T16:37:02.228Z] > authorizing via signed-in user
+[debug] [2018-01-24T16:37:02.231Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/avian-concord-176102  
+  
+ Wed Jan 24 2018 18:37:02 GMT+0200 (EET)
+[debug] [2018-01-24T16:37:03.640Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T16:37:03.641Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/avian-concord-176102/tokens  
+  
+ Wed Jan 24 2018 18:37:03 GMT+0200 (EET)
+[debug] [2018-01-24T16:37:04.489Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/fatmaelazab/Desktop/Task'...
+[info] 
+[debug] [2018-01-24T16:37:04.495Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/avian-concord-176102  
+  
+ Wed Jan 24 2018 18:37:04 GMT+0200 (EET)
+[debug] [2018-01-24T16:37:05.798Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T16:37:05.799Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/310905343528/clients/_:getWebAppConfig  
+  
+ Wed Jan 24 2018 18:37:05 GMT+0200 (EET)
+[debug] [2018-01-24T16:37:06.687Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-24T16:37:06.726Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:17)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Server.emit (events.js:207:7)
+    at emitListeningNT (net.js:1346:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.
